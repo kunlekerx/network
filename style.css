@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.weather-info {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+  input[type="text"] {
+    width: 80%;
+  }
+}
